@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+{% load static %}
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> ورود </title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="{% static 'css/loginsignup.css'%}">
+                
+        <!-- Boxicons CSS -->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+                        
+    </head>
+    <body dir="rtl">
+
+        <section class="container forms">
+            <div class="form login">
+                <div class="form-content">
+                    <header>ورود</header>
+                    <form action="#">
+                        <div class="field input-field">
+                            <input type="email" placeholder="نام کاربری" class="input">
+                        </div>
+
+                        <div class="field input-field">
+                            <input type="password" placeholder="رمز عبور" class="password">
+                            <i class='bx bx-hide eye-icon'></i>
+                        </div>
+
+                        <div class="form-link">
+                            <a href="#" class="forgot-pass">فراموشی رمز</a>
+                        </div>
+
+                        <div class="field button-field">
+                            <button><b>ورود</b></button>
+                        </div>
+                        
+                    </form>
+                </div>
+
+                <div class="Login"></div>
+
+                <div class="media-options">
+                    <a href="#" class="field Google">
+                        <i class='bx bxl-google'></i>
+                        <span>ورود با گوگل</span>
+                    </a>
+                    <a href="http://127.0.0.1:8000/">
+                        <div class="field button-field">
+                            <button><b>بازگشت به صفحه اصلی</b></button>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            
+        </section>
+
+        <!-- JavaScript -->
+        <script src="{% static 'js/script.js'%}"></script>
+    </body>
+</html>
